@@ -1,4 +1,4 @@
-///task 7///
+
 
 let applicants = [
     {income: 400000, hasLoan: false, age: 25}, 
@@ -26,12 +26,18 @@ for (let i = 0; i < applicants.length; i++) {
 ///// task 5///
 let orders = ["Fish", "Chips", "Juice", "Chips", "Burger", "Chips"];
 
-let counter = 0; 
+let b = 0; 
 for (let i = 0; i < orders.length; i++) {
     if (orders[i] === "Chips") {
-        counter++; 
+        b++; 
     }
 }
 
-console.log("Total Chips orders: " + counter);
+console.log("Total Chips orders: " + b);
+
+
+//array loop mthenod and function  to do sort push pop shift unshift touppercase tolowercase ///
+/*const sortedNames=studentNames.sort();
+console.log(sortNames);
+*/
 
